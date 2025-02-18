@@ -1,0 +1,78 @@
+body {
+    background-image: url('../img/elemen1.png'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Menutupi seluruh halaman */
+    background-position: center; /* Memposisikan gambar di tengah */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+    height: 100vh; /* Mengatur tinggi halaman */
+    margin: 0; /* Menghilangkan margin default */
+    display: flex; /* Menggunakan flexbox untuk centering */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    color: white; /* Warna teks */
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang form dengan transparansi */
+    padding: 20px; /* Padding di dalam form */
+    border-radius: 10px; /* Sudut yang membulat */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Bayangan pada form */
+    float: right; /* Float the form to the right */
+    margin-left: 10px; /* Create space on the left side */
+    margin-right: 20px; /* Distance from the right edge */
+}
+  
+  .container {
+    background-color: rgba(155, 155, 155, 0.932);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-box {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+     width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    font-size: 16px;
+    color: #ffffff;
+  }
+ 
+  
+  
+  .login-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Tambahkan margin atas untuk membuat jarak dengan input box */
+  }
+  
+  .login-buttons button {
+    margin: 0 10px; /* Tambahkan margin agar tombol tidak terlalu dekat */
+  }
+
+  .register-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Tambahkan margin atas untuk membuat jarak dengan input box */
+  }
+  
+  .register-buttons button {
+    margin: 0 10px; /* Tambahkan margin agar tombol tidak terlalu dekat */
+  }
+  
